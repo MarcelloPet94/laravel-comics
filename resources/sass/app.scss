@@ -78,7 +78,7 @@
     {
         position: relative;
         height: 500px;
-/*         background-image: url('../images/jumbotron.jpg'); */
+        background-image: url('../images/jumbotron.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: 24px;
@@ -212,7 +212,7 @@ text-transform: uppercase;
 .main_footer
 {
   background-color: blue;
-  background-image: url(../images/footer-bg.jpg);
+  background-image: url('../images/footer-bg.jpg');
 
 
     .footer_info
@@ -220,7 +220,7 @@ text-transform: uppercase;
         display: flex;
         margin: 0 auto;
         width: 80%;
-        background-image: url(../images/dc-logo-bg.png);
+        background-image: url('../images/dc-logo-bg.png');
         background-repeat: no-repeat;
         background-size: 40%;
         background-position: center right;
