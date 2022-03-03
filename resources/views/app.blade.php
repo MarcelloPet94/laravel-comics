@@ -9,5 +9,8 @@
     <body>
         @include('partials.header')
         @include('product')
+        @include('strip')
+        @include('footer')
+        @include('social')
     </body>
 </html>

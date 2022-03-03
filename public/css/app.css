@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .header .align_content_header {
@@ -68,7 +69,7 @@
 .hero_banner {
   position: relative;
   height: 500px;
-  background-image: url("/public/images/jumbotron.jpg");
+  /*         background-image: url('../images/jumbotron.jpg'); */
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 24px;
@@ -107,5 +108,102 @@
   margin-top: 16px;
   color: #fff;
   text-transform: uppercase;
+}
+
+.social {
+  background-color: #333;
+}
+
+.social .align_content_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.social .align_content_header .logo_img {
+  display: flex;
+  align-items: center;
+}
+
+.social .align_content_header .logo_img a {
+  color: #fff;
+  padding: 8px 16px;
+  border: 4px solid blue;
+}
+
+.social .align_content_header .right_navigation {
+  display: flex;
+  align-items: center;
+}
+
+.social .align_content_header .right_navigation ul {
+  display: flex;
+  height: 90px;
+}
+
+.social .align_content_header .right_navigation ul li {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.social .align_content_header .right_navigation ul li a {
+  color: #fff;
+}
+
+.icon_strip {
+  background-color: royalblue;
+}
+
+.icon_strip .align_all_icon {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px 0;
+  width: 80%;
+}
+
+.icon_strip .component_box {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.icon_strip .component_box img {
+  width: 56px;
+}
+
+.icon_strip .component_box a {
+  color: #fff;
+  padding: 0 16px;
+}
+
+.main_footer {
+  background-color: blue;
+  /* background-image: url(../assets/img/footer-bg.jpg); */
+}
+
+.main_footer .footer_info {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  /* background-image: url(../assets/img/dc-logo-bg.png); */
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center right;
+}
+
+.main_footer .footer_info ul li:first-of-type {
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.main_footer .footer_info ul li {
+  color: #fff;
+}
+
+.main_footer .info_box {
+  padding: 48px 24px 48px 0;
 }
 
