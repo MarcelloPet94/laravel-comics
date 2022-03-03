@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">        
     </head>
     <body>
+        
         @include('partials.header')
+        @dump($array_data)
+        @include('product')
+        
     </body>
 </html>
