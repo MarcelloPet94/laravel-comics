@@ -1,1 +1,60 @@
-//
+@import '_global';
+
+
+.header
+  {
+      
+    .align_content_header
+    {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 80%;
+      background-color: #fff;
+        
+        .logo_img
+        {
+          width: 90px;
+          padding: 8px;
+
+          img
+          {
+            width: 100%;
+          }
+        }
+
+
+      .right_navigation
+      {
+        display: flex;
+        align-items: center;
+
+        ul
+        {
+          display: flex;
+          height: 90px;
+
+          li
+          {
+            display: flex;
+            align-items: center;
+            padding: 0 8px;
+
+            a
+            {
+              color: #010101;
+              padding: 0 24px;
+            }
+            a.textSelected
+            {
+              color: blue;
+            }
+          }
+        }
+      }
+      .selected
+      {
+            border-bottom: 4px solid blue;
+      }
+    }  
+  }
