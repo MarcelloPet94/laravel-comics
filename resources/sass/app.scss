@@ -58,3 +58,70 @@
       }
     }  
   }
+
+  .main
+{
+    background-color: #010101; 
+
+        .thumb_container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+        width: 60vw;
+        margin: 0 auto;
+    }
+}  
+
+.hero_banner
+    {
+        position: relative;
+        height: 500px;
+        background-image: url('/public/images/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-bottom: 24px;
+    }  
+
+    .label 
+    {
+    position: absolute;
+    bottom: -1.5em;
+    left: 15vw;
+    background-color: blue;
+
+    span
+    {
+        font-size: 2em;
+        color: #fff;
+        padding: 0 16px;
+        line-height: 1.5em;
+    }
+} 
+
+.box_thumb
+{
+  margin: 16px 0 16px;
+  width: calc(10vw - 1vw);
+
+}
+
+.img_thumb
+{
+  height: calc(10vw - 1vw);
+  overflow: hidden;    
+
+    img
+    {
+      width: 100%;
+  }
+}
+
+.box_thumb p 
+{
+font-size: 0.9em;
+margin-top: 16px;
+color: #fff;
+text-transform: uppercase;
+}
