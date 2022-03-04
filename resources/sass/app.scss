@@ -52,6 +52,43 @@
           }
         }
       }
+
+      .search_nav
+      {
+        display: flex;
+        align-items: center;
+        height: 90px;
+
+        .input_border
+        {
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 2px solid blue;
+
+          input 
+          {
+            text-align: right;
+            border: none;
+          }
+
+          input:focus
+          {
+            outline: none;
+          }
+        }
+
+        .search_icon
+        {
+          padding: 8px;
+          
+          img
+          {
+            width:  100%;
+          }
+        }
+      }
+
+      /* navigation selected line blue */
       .selected
       {
             border-bottom: 4px solid blue;

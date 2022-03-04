@@ -22,5 +22,13 @@
           </li>                                 
         </ul>
       </nav>
+      <div class="search_nav">
+        <div class="input_border">
+          <input type="text" placeholder="search">
+          <div class="search_icon">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png"/>
+          </div>  
+        </div>
+      </div>
     </div>
 </div>

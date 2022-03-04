@@ -13,6 +13,7 @@
   margin: 0 auto;
   width: 80%;
   background-color: #fff;
+  /* navigation selected line blue */
 }
 .header .align_content_header .logo_img {
   width: 90px;
@@ -40,6 +41,29 @@
 }
 .header .align_content_header .right_navigation ul li a.textSelected {
   color: blue;
+}
+.header .align_content_header .search_nav {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.header .align_content_header .search_nav .input_border {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid blue;
+}
+.header .align_content_header .search_nav .input_border input {
+  text-align: right;
+  border: none;
+}
+.header .align_content_header .search_nav .input_border input:focus {
+  outline: none;
+}
+.header .align_content_header .search_nav .search_icon {
+  padding: 8px;
+}
+.header .align_content_header .search_nav .search_icon img {
+  width: 100%;
 }
 .header .align_content_header .selected {
   border-bottom: 4px solid blue;
